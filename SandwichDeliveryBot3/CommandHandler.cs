@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using System;
 using System.Reflection;
 using Discord.Commands;
@@ -36,7 +36,7 @@ namespace DiscordExampleBot
             // Mark where the prefix ends and the command begins
             int argPos = 0;
             // Determine if the message has a valid prefix, adjust argPos 
-            if (!(message.HasMentionPrefix(client.CurrentUser, ref argPos) || message.HasCharPrefix('!', ref argPos))) return;
+            if (!(message.HasMentionPrefix(client.CurrentUser, ref argPos) || message.HasCharPrefix(';', ref argPos))) return;
            // Console.WriteLine("beep boop handled3");
             // Create a Command Context
             var context = new CommandContext(client, message);
