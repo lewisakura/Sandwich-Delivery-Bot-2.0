@@ -27,7 +27,8 @@ namespace DiscordExampleBot
             // Define the DiscordSocketClient
             client = new DiscordSocketClient();
 
-            var token = "removedforsecurity"; 
+            var token = "Mjg1NTIyMDgxNzc1MzUzODU2.C-LfAA.bXEc0UikfqbEN0Dn0HIwagTGvuU"; //Normal:  Mjg1NTIyMDgxNzc1MzUzODU2.C-LfAA.bXEc0UikfqbEN0Dn0HIwagTGvuU
+            //test token MjkxNDMwNDUyMjEwODI3Mjc1.C-P02w.5ErXYlu_BiG6NHcAnSgwu3_IUiA
 
             client.Log += async (message) =>
             {
